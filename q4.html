@@ -1,0 +1,63 @@
+<html>
+<body>
+	<form action="send.php" method="post">
+	<table>
+		<tr>
+			<td><strong>What kind of car would you like to buy?</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="radio" name="car" value="Proton"checked>Proton
+			<input type="radio" name="car" value="Honda">Honda
+			<input type="radio" name="car" value="Ferrari">Ferrari
+			<input type="radio" name="car" value="Ford">Ford
+			</td>
+		</tr>
+		<tr>
+			<td><strong>What colour do you like on your car?</td>
+		</tr>
+		<tr>
+			<td>
+				<select name="colour">
+					<option value="White">White</option>
+					<option value="Red">Red</option>
+					<option selected value="Black">Black</option>
+					<option value="Blue">Blue</option>
+				</select>
+				<strong>Other:<input type="text">
+			</td>	
+		</tr>
+		<tr>
+			<td><strong>Enter information of your preferred car:</td>
+		</tr>
+		<tr>
+			<td><textarea rows="4" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td><strong>Tell us how to get in touch with you:</td>
+		</tr>
+		<tr>
+			<td><strong>Name:<input type="text"></td>
+		</tr>
+		<tr>
+			<td><strong>E-mail:<input type="text"></td>
+		</tr>
+		<tr>
+			<td><strong>Tel:<input type="text"></td>
+		</tr>
+		<tr>
+			<td><strong>FAX:<input type="text"></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><input type="checkbox" name="opt" value="contact">Please contact me as soon as possible regarding this matter.
+		</tr>
+		
+		<tr>
+			<td>
+				<input type="submit" value="Send">
+				<input type="reset" value="Clear">
+		</tr>
+	</table>
+</body>
+</html>
